@@ -1,67 +1,39 @@
-# Landing Page Microminimalista
+# muga-dev-landing
 
-Landing page optimizada con Astro.
+**Estado:** 🟢 Activo
 
-## Inicio Rápido
+Producto de MUGA.dev para crear landing pages rápidas, claras y escalables,
+pensadas como sistema y no como piezas aisladas.
 
-```bash
-npm install
-npm run dev       # Desarrollo
-npm run build     # Producción
-```
+## Qué es
+Un modelo de landing page profesional reutilizable, orientado a conversión,
+claridad estructural y mantenimiento a largo plazo.
 
-## Arquitectura
+No es un template genérico: es un producto con criterio.
 
-```
-src/
-├── components/   # Header, Hero, Features, FAQ, etc.
-├── layouts/      # Layout.astro (base)
-├── pages/        # index.astro
-└── styles/       # CSS modular
-    ├── base.css      # Variables + reset
-    ├── layout.css    # Grids + containers  
-    ├── components.css # Botones + cards
-    └── utilities.css  # Utilidades
-```
+## Para qué sirve
+- Lanzar productos o servicios de forma rápida y ordenada.
+- Evitar rehacer landings desde cero.
+- Mantener consistencia visual y técnica entre proyectos.
 
-## Stack Técnico
-
-- **Astro 5.13.5**: SSG framework
-- **CSS Vanilla**: Sin frameworks
-- **System Fonts**: Sin cargas externas
-- **JavaScript Vanilla**: ~2KB total
+## Público objetivo
+- Clientes que necesitan una landing clara y efectiva.
+- Proyectos internos de MUGA.dev.
+- Colaboradores que trabajan sobre una base común.
 
 ## Características
+- Arquitectura simple y mantenible.
+- Diseño limpio y enfocado en el contenido.
+- Fácil adaptación a distintos rubros.
+- Base pensada para escalar (no descartable).
 
-- ✅ Core Web Vitals optimizados
-- ✅ CSS crítico inline
-- ✅ Mobile-first responsive
-- ✅ Accesibilidad WCAG 2.1 AAA
-- ✅ SEO completo
+## Stack
+> El stack puede cambiar; el producto no.
+- Astro
+- CSS moderno
+- HTML semántico
 
-## Personalización
-
-### Colores
-```css
-/* base.css */
-:root {
-  --color-base: oklch(96% 0.01 80);
-  --color-text: oklch(17% 0.00906 42.94);
-  --color-primary: oklch(54.916% 0.02065 48.211);
-}
-```
-
-### Contenido
-```astro
-<!-- Hero.astro -->
-<h1>Tu <span>Producto</span> Descripción</h1>
-<p>Nueva propuesta de valor...</p>
-```
-
-## Performance
-
-| Métrica | Valor |
-|---------|-------|
-| **LCP** | ~1.2s |
-| **FID** | ~45ms |
-| **CLS** | ~0.02 |
+## Desarrollo local
+```bash
+npm install
+npm run dev
